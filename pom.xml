@@ -21,11 +21,6 @@
 
 	<dependencies>
 		<dependency>
-			<groupId>joda-time</groupId>
-			<artifactId>joda-time</artifactId>
-			<version>${jodatime.version}</version>
-		</dependency>
-		<dependency>
 			<groupId>org.slf4j</groupId>
 			<artifactId>slf4j-log4j12</artifactId>
 			<version>1.7.5</version>
@@ -47,26 +42,6 @@
 			<artifactId>testng</artifactId>
 			<!-- <version>6.8.8</version> -->
 			<version>${testng.version}</version>
-			<scope>test</scope>
-		</dependency>
-
-
-		<dependency>
-			<groupId>org.powermock</groupId>
-			<artifactId>powermock-module-junit4</artifactId>
-			<version>${powermock.version}</version>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.powermock</groupId>
-			<artifactId>powermock-api-easymock</artifactId>
-			<version>${powermock.version}</version>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
-			<groupId>org.easymock</groupId>
-			<artifactId>easymock</artifactId>
-			<version>3.0</version>
 			<scope>test</scope>
 		</dependency>
 
